@@ -1,0 +1,12 @@
+LIBRARY  libfftw3-3.dll
+
+EXPORTS 
+
+fftw_malloc
+fftw_free
+fftw_execute
+fftw_plan_dft_1d
+fftw_destroy_plan
+fftw_forget_wisdom
+fftw_export_wisdom_to_string
+fftw_import_wisdom_from_string
