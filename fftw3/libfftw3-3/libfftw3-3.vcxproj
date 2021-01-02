@@ -95,7 +95,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\mkl\lib\ia32_win</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\Intel\oneAPI\compiler\2021.1.1\windows\compiler\lib\ia32_win;C:\Program Files (x86)\Intel\oneAPI\mkl\2021.1.1\lib\ia32;</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>libfftw3-3.def</ModuleDefinitionFile>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>kernel32.lib;vcruntime.lib;ucrt.lib;msvcrt.lib</AdditionalDependencies>
@@ -113,7 +113,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>libfftw3-3.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\mkl\lib\intel64_win</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\Intel\oneAPI\mkl\2021.1.1\lib\intel64;C:\Program Files (x86)\Intel\oneAPI\compiler\2021.1.1\windows\compiler\lib\intel64_win;</AdditionalLibraryDirectories>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>libcmt.lib;kernel32.lib;vcruntime.lib;ucrt.lib</AdditionalDependencies>
     </Link>
@@ -133,7 +133,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\mkl\lib\ia32_win;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\lib\ia32_win</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\Intel\oneAPI\compiler\2021.1.1\windows\compiler\lib\ia32_win;C:\Program Files (x86)\Intel\oneAPI\mkl\2021.1.1\lib\ia32;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\lib\ia32_win</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>libfftw3-3.def</ModuleDefinitionFile>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>fftw3-static-x86.lib;libiomp5md.lib;mkl_core.lib;mkl_intel_c.lib;mkl_intel_thread.lib;kernel32.lib;vcruntime.lib;ucrt.lib;msvcrt.lib</AdditionalDependencies>
@@ -154,7 +154,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\mkl\lib\intel64_win;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\lib\intel64_win</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;C:\Program Files (x86)\Intel\oneAPI\mkl\2021.1.1\lib\intel64;C:\Program Files (x86)\Intel\oneAPI\compiler\2021.1.1\windows\compiler\lib\intel64_win;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\lib\intel64_win</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>libfftw3-3.def</ModuleDefinitionFile>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>fftw3-static-x64.lib;libiomp5md.lib;mkl_core.lib;mkl_intel_lp64.lib;mkl_intel_thread.lib;libcmt.lib;kernel32.lib;vcruntime.lib;ucrt.lib</AdditionalDependencies>

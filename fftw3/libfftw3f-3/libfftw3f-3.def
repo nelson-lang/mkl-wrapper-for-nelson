@@ -2,6 +2,13 @@ LIBRARY  libfftw3f-3.dll
 
 EXPORTS 
 
+fftwf_execute_dft
+fftwf_execute_dft_r2c
+fftwf_execute_dft_c2r
+fftwf_plan_dft_c2r_1d
+fftwf_plan_many_dft_r2c
+fftwf_plan_many_dft_c2r
+fftwf_plan_many_dft
 fftwf_export_wisdom_to_string
 fftwf_import_wisdom_from_string
 fftwf_forget_wisdom
@@ -10,3 +17,6 @@ fftwf_plan_dft_1d
 fftwf_execute
 fftwf_malloc
 fftwf_free
+fftw_init_threads
+fftw_plan_with_nthreads
+fftw_cleanup_threads
