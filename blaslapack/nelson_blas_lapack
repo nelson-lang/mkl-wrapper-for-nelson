@@ -8080,3 +8080,18 @@
   MKL_Set_Dynamic
   MKL_Get_Dynamic
   MKL_Enable_Instructions
+
+
+  ctrsm_direct
+  zgemm_direct
+  ztrsm_direct
+  cgemm_direct
+  dgemm_direct
+  sgemm_direct
+  zaxpy_direct
+  daxpy_direct
+  saxpy_direct
+  caxpy_direct
+  dtrsm_direct
+  strsm_direct
+  

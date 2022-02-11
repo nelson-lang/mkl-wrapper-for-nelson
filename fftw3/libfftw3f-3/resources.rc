@@ -13,7 +13,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Français (France) resources
+// Franï¿½ais (France) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
 LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
@@ -51,8 +51,8 @@ END
 //
 
 1 VERSIONINFO
- FILEVERSION 2021,0,0,1
- PRODUCTVERSION 2021,0,0,1
+ FILEVERSION 2022,1,0,1
+ PRODUCTVERSION 2022,1,0,1
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -70,12 +70,12 @@ BEGIN
             VALUE "Comments", "All rights reserved."
             VALUE "CompanyName", "Allan CORNET"
             VALUE "FileDescription", "fftw wrapper for Nelson"
-            VALUE "FileVersion", "2021.0.0.1"
+            VALUE "FileVersion", "2022.1.0.1"
             VALUE "InternalName", "fftw wrapper for Nelson"
             VALUE "LegalCopyright", "Nelson Copyright (C)"
             VALUE "OriginalFilename", "libfftw3f-3.dll"
             VALUE "ProductName", "fftw wrapper for Nelson"
-            VALUE "ProductVersion", "2021.0.0.1"
+            VALUE "ProductVersion", "2022.1.0.1"
         END
     END
     BLOCK "VarFileInfo"
@@ -84,7 +84,7 @@ BEGIN
     END
 END
 
-#endif    // Français (France) resources
+#endif    // Franï¿½ais (France) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
